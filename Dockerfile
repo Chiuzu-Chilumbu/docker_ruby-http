@@ -11,7 +11,7 @@ RUN \
     && rm -rf /var/cache/apk/*
 
 # Build image with:
-#   docker build --rm --force-rm -t chiuzu/ruby-http:3.1.2 .
+#   docker build --force-rm -t chiuzu/ruby-http:3.1.2 .
 #
 # Run container with this image:
 #   docker run --rm -it chiuzu/ruby-http:3.1.2 sh
